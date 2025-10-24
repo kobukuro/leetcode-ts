@@ -1,4 +1,4 @@
-import { twoSum } from './solution'
+import {twoSum} from './solution';
 
 describe('twoSum', () => {
     it('should return indices [0, 1] or [1, 0] for nums=[2,7,11,15] and target=9', () => {
