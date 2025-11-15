@@ -1,16 +1,22 @@
 // Tags: Matrix, DFS, Dynamic Programming, Graph
 
 
-function dfs(r: number, c: number, matrix: number[][], prev: number, memo: Map<string, number>) {
+function dfs(r: number, c: number, matrix: number[][], prev: number, memo: Map<string, number>): number {
     if (r < 0 || r === matrix.length || c < 0 || c === matrix[0].length || matrix[r][c] <= prev) {
         return 0;
     }
     const key = r + ',' + c;
     if (memo.has(key)) {
-        return memo.get(key);
+        return memo.get(key)!;
     }
-    memo.set(key, 1 + Math.max(dfs(r + 1, c, matrix, matrix[r][c], memo), dfs(r - 1, c, matrix, matrix[r][c], memo), dfs(r, c + 1, matrix, matrix[r][c], memo), dfs(r, c - 1, matrix, matrix[r][c], memo)))
-    return memo.get(key);
+    const length = 1 + Math.max(
+        dfs(r + 1, c, matrix, matrix[r][c], memo),
+        dfs(r - 1, c, matrix, matrix[r][c], memo),
+        dfs(r, c + 1, matrix, matrix[r][c], memo),
+        dfs(r, c - 1, matrix, matrix[r][c], memo)
+    );
+    memo.set(key, length);
+    return length;
 }
 
 /**
@@ -37,5 +43,3 @@ export function longestIncreasingPath(matrix: number[][]): number {
     }
     return res;
 }
-
-
