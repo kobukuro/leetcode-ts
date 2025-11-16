@@ -14,22 +14,18 @@ A collection of LeetCode problem solutions implemented in TypeScript with detail
 
 ```
 leetcode-ts/
-├── src/
-│   └── problems/
-│       ├── easy/
-│       │   ├── 1-two-sum/
-│       │   │   ├── solution.ts
-│       │   │   └── solution.test.ts
-│       │   └── 217-contains-duplicate/
-│       │       ├── solution.ts
-│       │       └── solution.test.ts
-│       └── hard/
-│           └── 329-longest-increasing-path-in-a-matrix/
-│               ├── solution.ts
-│               └── solution.test.ts
-├── jest.config.js
-├── tsconfig.json
-└── package.json
+├── src/problems/
+│   ├── easy/           # Easy difficulty problems
+│   ├── medium/         # Medium difficulty problems (directory will be created when the first medium problem is solved)
+│   └── hard/           # Hard difficulty problems
+└── docs/               # Detailed problem lists
+```
+
+Each problem follows this structure:
+```
+{difficulty}/{number}-{problem-name}/
+├── solution.ts         # Solution implementation
+└── solution.test.ts    # Test cases
 ```
 
 ## Getting Started
@@ -66,16 +62,19 @@ npm test -- 1-two-sum
 
 ## Solutions
 
-### Easy
-| # | Title | Tags | Solution | Tests |
-|---|-------|------|----------|-------|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Hash Table | [solution.ts](src/problems/easy/1-two-sum/solution.ts) | [solution.test.ts](src/problems/easy/1-two-sum/solution.test.ts) |
-| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Hash Set | [solution.ts](src/problems/easy/217-contains-duplicate/solution.ts) | [solution.test.ts](src/problems/easy/217-contains-duplicate/solution.test.ts) |
+📊 **Statistics**: 3 problems solved
 
-### Hard
-| # | Title | Tags | Solution | Tests |
-|---|-------|------|----------|-------|
-| 329 | [Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | DFS, Memoization | [solution.ts](src/problems/hard/329-longest-increasing-path-in-a-matrix/solution.ts) | [solution.test.ts](src/problems/hard/329-longest-increasing-path-in-a-matrix/solution.test.ts) |
+| Difficulty | Count |
+|------------|-------|
+| Easy       | 2     |
+| Medium     | 0     |
+| Hard       | 1     |
+
+### Browse by Difficulty
+
+- 📗 [Easy Problems](docs/EASY.md)
+- 📘 [Medium Problems](docs/MEDIUM.md)
+- 📕 [Hard Problems](docs/HARD.md)
 
 ## Technologies Used
 
