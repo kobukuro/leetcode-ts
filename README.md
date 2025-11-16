@@ -16,7 +16,7 @@ A collection of LeetCode problem solutions implemented in TypeScript with detail
 leetcode-ts/
 ├── src/problems/
 │   ├── easy/           # Easy difficulty problems
-│   ├── medium/         # Medium difficulty problems
+│   ├── medium/         # Medium difficulty problems (directory will be created when the first medium problem is solved)
 │   └── hard/           # Hard difficulty problems
 └── docs/               # Detailed problem lists
 ```
