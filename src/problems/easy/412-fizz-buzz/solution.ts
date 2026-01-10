@@ -1,7 +1,9 @@
 // Tags: Math
-/*
-    Time complexity: O(N)
-    Space complexity: O(1)
+
+/**
+ * Time complexity: O(n)
+ *
+ * Space complexity: O(1)
  */
 export function fizzBuzz(n: number): string[] {
     let res: string[] = [];
