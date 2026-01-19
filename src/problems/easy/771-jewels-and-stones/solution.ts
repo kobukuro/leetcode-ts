@@ -15,7 +15,7 @@
  *
  * Space complexity: O(J)
  * Breakdown:
- * - Set storage: The jewel_types set stores at most J unique characters from the jewels string
+ * - Set storage: The jewelTypes set stores at most J unique characters from the jewels string
  *   - In the worst case, all characters in jewels are unique, requiring O(J) space
  * - Other variables: res uses O(1) constant space
  * - Overall: O(J)
