@@ -62,12 +62,12 @@ npm test -- 1-two-sum
 
 ## Solutions
 
-📊 **Statistics**: 11 problems solved
+📊 **Statistics**: 12 problems solved
 
 | Difficulty | Count |
 |------------|-------|
 | Easy       | 8     |
-| Medium     | 2     |
+| Medium     | 3     |
 | Hard       | 1     |
 
 ### Browse by Difficulty
