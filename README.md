@@ -62,7 +62,7 @@ npm test -- 1-two-sum
 
 ## Solutions
 
-📊 **Statistics**: 11 problems solved
+📊 **Statistics**: 12 problems solved
 
 | Difficulty | Count |
 |------------|-------|
