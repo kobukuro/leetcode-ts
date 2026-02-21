@@ -67,7 +67,7 @@ npm test -- 1-two-sum
 | Difficulty | Count |
 |------------|-------|
 | Easy       | 8     |
-| Medium     | 2     |
+| Medium     | 3     |
 | Hard       | 1     |
 
 ### Browse by Difficulty
