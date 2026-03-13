@@ -14,10 +14,12 @@ A collection of LeetCode problem solutions implemented in TypeScript with detail
 
 ```
 leetcode-ts/
-├── src/problems/
-│   ├── easy/           # Easy difficulty problems
-│   ├── medium/         # Medium difficulty problems (directory will be created when the first medium problem is solved)
-│   └── hard/           # Hard difficulty problems
+├── src/
+│   ├── problems/
+│   │   ├── easy/       # Easy difficulty problems
+│   │   ├── medium/     # Medium difficulty problems
+│   │   └── hard/       # Hard difficulty problems
+│   └── common/         # Shared data structures (TreeNode, etc.)
 └── docs/               # Detailed problem lists
 ```
 
@@ -62,11 +64,11 @@ npm test -- 1-two-sum
 
 ## Solutions
 
-📊 **Statistics**: 12 problems solved
+📊 **Statistics**: 14 problems solved
 
 | Difficulty | Count |
 |------------|-------|
-| Easy       | 8     |
+| Easy       | 10    |
 | Medium     | 3     |
 | Hard       | 1     |
 
