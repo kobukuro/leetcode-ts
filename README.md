@@ -64,11 +64,11 @@ npm test -- 1-two-sum
 
 ## Solutions
 
-📊 **Statistics**: 14 problems solved
+📊 **Statistics**: 15 problems solved
 
 | Difficulty | Count |
 |------------|-------|
-| Easy       | 10    |
+| Easy       | 11    |
 | Medium     | 3     |
 | Hard       | 1     |
 
