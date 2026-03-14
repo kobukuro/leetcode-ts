@@ -1,6 +1,6 @@
 # Easy Problems
 
-Total: 10 problems solved
+Total: 11 problems solved
 
 ## Solutions
 
@@ -14,6 +14,7 @@ Total: 10 problems solved
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | [solution.ts](../src/problems/easy/704-binary-search/solution.ts)                | [solution.test.ts](../src/problems/easy/704-binary-search/solution.test.ts)                |
 | 771 | [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/) | [solution.ts](../src/problems/easy/771-jewels-and-stones/solution.ts)            | [solution.test.ts](../src/problems/easy/771-jewels-and-stones/solution.test.ts)            |
 | 1119 | [Remove Vowels from a String](https://leetcode.com/problems/remove-vowels-from-a-string/) | [solution.ts](../src/problems/easy/1119-remove-vowels-from-a-string/solution.ts) | [solution.test.ts](../src/problems/easy/1119-remove-vowels-from-a-string/solution.test.ts) |
+| 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | [solution.ts](../src/problems/easy/1672-richest-customer-wealth/solution.ts) | [solution.test.ts](../src/problems/easy/1672-richest-customer-wealth/solution.test.ts) |
 | 2011 | [Final Value of Variable After Performing Operations](https://leetcode.com/problems/final-value-of-variable-after-performing-operations/) | [solution.ts](../src/problems/easy/2011-final-value-of-variable-after-performing-operations/solution.ts) | [solution.test.ts](../src/problems/easy/2011-final-value-of-variable-after-performing-operations/solution.test.ts) |
 | 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/) | [solution.ts](../src/problems/easy/2469-convert-the-temperature/solution.ts) | [solution.test.ts](../src/problems/easy/2469-convert-the-temperature/solution.test.ts) |
 
